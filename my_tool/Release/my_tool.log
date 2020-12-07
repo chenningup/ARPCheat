@@ -1,0 +1,30 @@
+﻿Build started 2017/8/27 22:22:53.
+     1>Project "D:\my computer games\attacktool\my_tool\my_tool\my_tool.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Moc'ing my_tool.h...
+       ClCompile:
+         D:\vs2013\install\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\vs2013\qt\install\5.6\msvc2013\include /I.\GeneratedFiles\Release /ID:\vs2013\qt\install\5.6\msvc2013\include\QtCore /ID:\vs2013\qt\install\5.6\msvc2013\include\QtGui /ID:\vs2013\qt\install\5.6\msvc2013\include\QtWidgets /ID:\vs2013\qt\install\5.6\msvc2013\include\QtWebSockets /ID:\vs2013\qt\install\5.6\msvc2013\include\QtNetwork /ID:\vs2013\opnecv\install\opencv\build\include /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D HAVE_REMOTE /D WPCAP /D _XKEYCHECK_H /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Release\moc_my_tool.cpp main.cpp my_tool.cpp
+         moc_my_tool.cpp
+         main.cpp
+         my_tool.cpp
+         Generating Code...
+       Link:
+         D:\vs2013\install\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\my computer games\attacktool\my_tool\Win32\Release\\my_tool.exe" /NOLOGO /LIBPATH:D:\vs2013\qt\install\5.6\msvc2013\lib /LIBPATH:D:\vs2013\opnecv\install\opencv\build\x64\vc14\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Widgets.lib ws2_32.lib wpcap.lib Qt5WebSocketsd.lib Qt5Networkd.lib opencv_world330.lib opencv_world330d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:\my computer games\attacktool\my_tool\Win32\Release\my_tool.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\my computer games\attacktool\my_tool\Win32\Release\my_tool.lib" /MACHINE:X86 /SAFESEH Release\data_packing.obj
+         Release\qrc_my_tool.obj
+         Release\moc_data_packing.obj
+         Release\moc_my_tool.obj
+         Release\main.obj
+         Release\my_tool.obj
+     1>my_tool.obj : error LNK2019: unresolved external symbol _cvCreateCameraCapture referenced in function "public: void __thiscall my_tool::ShowCamera(void)" (?ShowCamera@my_tool@@QAEXXZ)
+     1>my_tool.obj : error LNK2019: unresolved external symbol _cvQueryFrame referenced in function "public: void __thiscall my_tool::ShowCamera(void)" (?ShowCamera@my_tool@@QAEXXZ)
+     1>my_tool.obj : error LNK2019: unresolved external symbol _cvReleaseCapture referenced in function "public: void __thiscall my_tool::ShowCamera(void)" (?ShowCamera@my_tool@@QAEXXZ)
+     1>my_tool.obj : error LNK2019: unresolved external symbol _cvNamedWindow referenced in function "public: void __thiscall my_tool::ShowCamera(void)" (?ShowCamera@my_tool@@QAEXXZ)
+     1>my_tool.obj : error LNK2019: unresolved external symbol _cvShowImage referenced in function "public: void __thiscall my_tool::ShowCamera(void)" (?ShowCamera@my_tool@@QAEXXZ)
+     1>my_tool.obj : error LNK2019: unresolved external symbol _cvDestroyWindow referenced in function "public: void __thiscall my_tool::ShowCamera(void)" (?ShowCamera@my_tool@@QAEXXZ)
+     1>my_tool.obj : error LNK2019: unresolved external symbol _cvWaitKey referenced in function "public: void __thiscall my_tool::ShowCamera(void)" (?ShowCamera@my_tool@@QAEXXZ)
+     1>D:\my computer games\attacktool\my_tool\Win32\Release\\my_tool.exe : fatal error LNK1120: 7 unresolved externals
+     1>Done Building Project "D:\my computer games\attacktool\my_tool\my_tool\my_tool.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:05.00
